@@ -4,19 +4,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="StyleSheet.css" type="text/css" />
     <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
     
-        Net Pay Calculator<br />
+        <h1>Net Pay Calculator</h1><br />
         <br />
         Hourly wage:
         <asp:TextBox ID="txbxHourlyWage" runat="server"></asp:TextBox>
         <br />
         <br />
-        Works worked this week:
+        Hours worked this week:
         <asp:TextBox ID="txbxHoursWorked" runat="server"></asp:TextBox>
         <br />
         <br />
