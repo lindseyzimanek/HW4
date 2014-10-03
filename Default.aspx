@@ -12,7 +12,6 @@
     <div>
     
         <h1>Net Pay Calculator</h1><br />
-        <br />
         Hourly wage:
         <asp:TextBox ID="txbxHourlyWage" runat="server"></asp:TextBox>
         <br />
