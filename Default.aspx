@@ -29,6 +29,7 @@
         <br />
         <br />
         <asp:Button ID="btnCalculate" runat="server" Text="Calculate" />
+        &nbsp;<asp:Button ID="btnClear" runat="server" Text="Clear" />
         <br />
         <br />
         <asp:Label ID="lblResult" runat="server"></asp:Label>

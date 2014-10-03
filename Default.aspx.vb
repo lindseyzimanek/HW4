@@ -30,4 +30,13 @@ Partial Class _Default
         'display result in results label
         lblResult.Text = "Your estimated net pay for the week is $" & NetPay.ToString("#,###.##")
     End Sub
+
+    Protected Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        txbxHourlyWage.Text = ""
+        txbxHoursWorked.Text = ""
+        txbxPretaxDeductions.Text = ""
+        txbxAfterTaxDeductions.Text = ""
+        lblResult.Text = ""
+
+    End Sub
 End Class
